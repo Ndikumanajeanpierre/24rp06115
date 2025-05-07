@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rwanda Local Marketplace</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rwanda Local Marketplace</h1>
+    <p>Connecting Buyers with Local Sellers</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="Add product.html">Add Product</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <p style="background-color: yellow;text-align: center; color: blueviolet;"> This video explain you how our site work</p>
+  <div class="video">
+    <video src="video.MP4" controls width="300" height="200">
+  </div>
+
+  <div class="hero">
+    <h2>Discover Authentic Rwandan Products</h2>
+  </div>
+  
+
+  <section class="section">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="coffe.JPEG" alt="Rwandan Coffee" />
+        <h3>Rwandan Coffee</h3>
+        <p>Fragrant and rich, locally sourced beans.</p>
+        <a href="products.html" onclick="viwproduct()">View Product</a>
+        <script>
+          function viwproduct(){
+            alert("hello,you want to view product");
+          }
+        </script>
+      </div>
+      <div class="product-card">
+        <img src="handwoven.JPEG" alt="Handwoven Basket" />
+        <h3>Handwoven Basket</h3>
+        <p>Traditional Rwandan craftsmanship.</p>
+        <a href="products.html" onclick="contin()">View Product</a>
+        <script>
+          function contin(){
+            alert("hello,you want to see product");
+          }
+        </script>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p> WELCOME TO Rwanda Local Marketplace.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #00793f;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('../images/market.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 4px #000;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.product-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00793f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #00793f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.form{
+   background-color: magenta;
+  color: white;
+  text-align: center;
+  padding: 10px;
+
+}
+.video{
+text-align: center;
+
+}
